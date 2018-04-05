@@ -7,3 +7,11 @@ The US Men's Shed Community currently has three Sheds in operation in the United
 * [Minneapolis, Minnesota](Minneapolis,%20Minnesota.yaml)
 * [Traverse City, Michigan](Traverse%20City,%20Michigan.yaml)
 * [Honolulu, Hawaii](Honolulu,%20CHawaii.yaml)
+
+<ul>
+  {% for location in site.data.locations %}
+    <li>
+      <a href="{{ location.web }}">{{ location.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
