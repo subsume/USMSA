@@ -1,5 +1,5 @@
 ---
-title: US Men's Shed Association
+title: "US Men's Shed Association"
 ---
 [View on GitHub Pages](https://subsume.github.io/USMSA/)
 
