@@ -1,6 +1,6 @@
 [View on GitHub Pages](https://subsume.github.io/USMSA/)
 
-[Find a Shed](locations.md)
+[Find a Shed](/locations)
 
 <ul>
   {% for post in site.posts %}
