@@ -7,7 +7,7 @@ The US Men's Shed Community currently has three Sheds in operation in the United
 {% for location in site.data.locations %}
   <div>
     <h2><a href="{{ location.web }}">{{ location.name }}</a></h2>
-    email: <a href="mailto:{{ location.email }}">{{ location.email }}</a>
+    email: <a href="mailto:{{ location.email }}">{{ location.email }}</a><br>
     <iframe src="https://maps.google.co.uk/maps?q={{ location.lat }},{{ location.long }}&output=embed" width="300" height="300"></iframe>
     <hr>
   </div>
