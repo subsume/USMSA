@@ -2,7 +2,7 @@
 title: USMSA Home Page
 ---
 
-{% for section in site.sections %}
+{% for section in site.data.sections %}
 * [section.name](section.url)
 {% endfor %}
 
