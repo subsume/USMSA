@@ -1,0 +1,16 @@
+- name: Men's Shed Movement
+  url: movement
+- name: Find a Shed
+  url: find
+- name: Start a Shed
+  url: start
+- name: Pictures
+  url: pictures
+- name: Videos
+  url: videos
+- name: Helpful Information
+  url: help
+- name: Contact
+  url: contact
+- name: Our Board
+  url: board
