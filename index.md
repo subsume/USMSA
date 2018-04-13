@@ -1,7 +1,10 @@
 ---
 title: USMSA Home Page
 ---
-## [Find a Shed](locations)
+
+{% for section in site.sections %}
+* [section.name](section.url)
+{% endfor %}
 
 ![Hero Image](my_movie_337.jpg)
 # Improving Mental Health for All Men
