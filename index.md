@@ -3,7 +3,7 @@ title: USMSA Home Page
 ---
 
 {% for section in site.data.sections %}
-* [section.name](section.url)
+* [{{ section.name }}]({{ section.url }})
 {% endfor %}
 
 ![Hero Image](my_movie_337.jpg)
